@@ -18,6 +18,8 @@
 
 ```C#
 
+// 主要是贴花uv坐标的获取，关于其他的符合效果可以参考代码
+
 // vs
 
 o.screenUV = ComputeScreenPos (o.pos);
@@ -49,6 +51,9 @@ float2 texUV = opos.xz + 0.5;
 ### 代码部分
 
 ```C#
+
+// 这个函数是计算Shader中粒子的位置，修正位置达到正确的效果
+
 void UpdateWorldMatrix()
 {
     if (m_material == null)
