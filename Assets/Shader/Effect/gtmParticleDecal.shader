@@ -1,5 +1,7 @@
 ﻿Shader "gtm/Effect/ParticleDecal"
 {
+	// 源项目链接 https://github.com/ColinLeung-NiloCat/UnityURPUnlitScreenSpaceDecalShader
+
 	Properties
 	{
 		_MainTex ("Decal Texture", 2D) = "white" {}

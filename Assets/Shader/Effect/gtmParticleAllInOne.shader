@@ -1,5 +1,7 @@
 ﻿Shader  "gtm/Effect/ParticleAllInOne"
 {
+    // 源项目链接 https://github.com/ColinLeung-NiloCat/UnityURPUnlitScreenSpaceDecalShader
+
     Properties
     {
         [KeywordEnum(Mesh, Particle)] M("Mesh & Particle", Float)= 1

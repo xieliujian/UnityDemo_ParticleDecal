@@ -40,6 +40,7 @@ namespace gtmGame
                 return;
 
             var particle = m_particleArray[0];
+            // 注意，粒子取出的位置是世界空间位置
             var pos = transform.position;
             var rot = transform.rotation * Quaternion.Euler(particle.rotation3D);
 
